@@ -1,0 +1,16 @@
+<% layout('./layouts/layout.eta') %>
+
+<h1>Quiz application</h1>
+
+<p> This is an application that can be used to create multiple-choice quizzes about any given topic. </p>
+
+<p> In order to create topics and questions for a quiz, you must <a href="/auth/register">register</a> first. </p>
+
+<h1> Statistics </h1>
+
+<p> Number of topics: <%=it.topicAmount%> </p>
+
+<p> Number of questions: <%=it.questionAmount%> </p>
+
+<p> Number of answers: <%=it.answerAmount%> </p>
+
